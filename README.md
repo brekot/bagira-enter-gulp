@@ -1,4 +1,4 @@
-<a href="javascript:;">Страница</a>
+<a href="https://brekot.github.io/bagira-enter-gulp/)">Вход</a>
 
 <hr>
 
