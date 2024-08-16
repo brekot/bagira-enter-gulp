@@ -36,6 +36,7 @@
         }
     }
     &__parts {
+        margin: 23px 0 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -45,29 +46,5 @@
         font-weight: 700;
         font-size: 12px;
         display: block;
-    }
-    &__bottom {
-        display: flex;
-        justify-content: center;
-    }
-}
-
-.back-link {
-    font-weight: 700;
-    font-size: 13px;
-    text-transform: uppercase;
-    color: $color-black;
-    fill: $color-black;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 7px;
-
-    &:hover {
-        fill: $color-main;
-    }
-    &__icon {
-        width: 7px;
-        height: 11px;
     }
 }
