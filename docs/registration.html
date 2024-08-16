@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Багира (Авторизация)</title>
+        <title>Багира (Запрос данных для авторизации)</title>
         <meta name="theme-color" content="#3dae2b">
         <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
 
@@ -18,10 +18,11 @@
                 <div class="main-block__inner">
                     <div class="title-style">Запрос данных для авторизации</div>
                     <div class="user-type">
-    <a href="javascript:;" class="user-type__link user-type__link_active">Физическое лицо</a>
-    <a href="javascript:;" class="user-type__link">Юридическое лицо</a>
+    <a href="javascript:;" data-type="fiz" class="user-type__link user-type__link_active">Физическое лицо</a>
+    <a href="javascript:;" data-type="ur" class="user-type__link">Юридическое лицо</a>
 </div>
-                    <div class="form-one">
+                    <div class="user-type-block" data-type="fiz">
+                        <div class="form-one">
     <form action="" method="post">
         <div class="form-one__line form-one__line_short">
             <input type="text" class="form-one__input" value="" placeholder="ФИО" name="fio" required>
@@ -45,6 +46,42 @@
         </div>
     </form>
 </div>
+                    </div>
+                    <div class="user-type-block d-none" data-type="ur">
+                        <div class="form-one">
+    <form action="" method="post">
+        <div class="form-one__line form-one__line_short">
+            <input type="text" class="form-one__input" value="" placeholder="Название компании" name="company" required>
+        </div>
+        <div class="form-one__line form-one__line_short">
+            <input type="text" class="form-one__input" value="" placeholder="ИНН" name="inn" required>
+        </div>
+        <div class="form-one__line form-one__line_short">
+            <input type="text" class="form-one__input" value="" placeholder="КПП" name="kpp" required>
+        </div>
+        <div class="form-one__line form-one__line_short">
+            <input type="text" class="form-one__input" value="" placeholder="ФИО (контактное лицо)" name="fio" required>
+        </div>
+        <div class="form-one__line form-one__line_short">
+            <input type="tel" class="form-one__input" value="" placeholder="+7 (___) ___ - __ - __" name="phone" required>
+        </div>
+        <div class="form-one__line form-one__line_short">
+            <input type="email" class="form-one__input" value="" placeholder="E-mail" name="email" required>
+        </div>
+        <div class="form-one__line">
+            <button type="submit" class="btn btn_main">Отправить</button>
+        </div>
+        <div class="form-one__bottom">
+            <a href="javascript:;" class="back-link">
+                <svg class="back-link__icon">
+                    <use xlink:href="local/img/sprites/sprite.svg#back"></use>
+                </svg>
+                Обратно
+            </a>
+        </div>
+    </form>
+</div>
+                    </div>
                 </div>
             </div>
             <div class="bottom-block">

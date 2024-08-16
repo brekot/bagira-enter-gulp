@@ -15,4 +15,18 @@
         color: $color-white;
         text-decoration: none;
     }
+
+    @media (max-width: 470px)
+    {
+        &__title {
+            font-size: 12px;
+            line-height: 1.25;
+            color: $color-black;
+        }
+        &__phone {
+            font-weight: 700;
+            font-size: 20px;
+            color: $color-main;
+        }
+    }
 }

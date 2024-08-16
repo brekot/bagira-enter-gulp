@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Багира (Авторизация)</title>
+        <title>Багира (Запрос данных для авторизации)</title>
         <meta name="theme-color" content="#3dae2b">
         <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
 
@@ -18,7 +18,12 @@
                 <div class="main-block__inner">
                     <div class="title-style">Запрос данных для авторизации</div>
                     @@include("../blocks/modules/user-type/user-type.html")
-                    @@include("../blocks/modules/form-one/registration-fiz.html")
+                    <div class="user-type-block" data-type="fiz">
+                        @@include("../blocks/modules/form-one/registration-fiz.html")
+                    </div>
+                    <div class="user-type-block d-none" data-type="ur">
+                        @@include("../blocks/modules/form-one/registration-ur.html")
+                    </div>
                 </div>
             </div>
             <div class="bottom-block">
