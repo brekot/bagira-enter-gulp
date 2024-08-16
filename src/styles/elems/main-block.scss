@@ -1,10 +1,9 @@
 .main-block {
-    width: 100%;
-    padding: 60px 0 0;
-    margin: 0 0 auto;
+    display: contents;
 
     &__logo {
         margin: 0 0 22px;
+        padding: 60px 0 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -17,6 +16,11 @@
     &__inner {
         padding: 0 15px;
     }
+    &__desc {
+        font-size: 17px;
+        margin: 0 0 20px;
+        text-align: center;
+    }
 
     @media (min-width: 471px)
     {
@@ -26,8 +30,10 @@
             border-radius: 50px;
             padding: 35px 0 50px;
             margin: auto;
+            display: block;
 
             &__logo {
+                padding: 0;
                 margin: 0 0 28px;
             }
             &__inner {

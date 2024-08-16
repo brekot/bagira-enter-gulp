@@ -1,5 +1,6 @@
 <a href="https://brekot.github.io/bagira-enter-gulp/">Страница входа</a><br>
 <a href="https://brekot.github.io/bagira-enter-gulp/registration.html">Запрос данных для авторизации</a>
+<a href="https://brekot.github.io/bagira-enter-gulp/success.html">Запрос успешно отправлен</a><br>
 
 <hr>
 
