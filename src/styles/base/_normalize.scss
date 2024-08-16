@@ -19,7 +19,8 @@ body {
 	font: 500 16px/1.37 'Montserrat', sans-serif;
 	color: $color-text;
 	text-align: left;
-	min-height: 100vh;
+	/* min-height: 100vh; */
+	min-height: 100dvh;
 	background-color: $color-white;
 
 	@media (min-width: 471px)
