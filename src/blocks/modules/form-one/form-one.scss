@@ -21,6 +21,9 @@
         padding: 0 18px;
         transition: .5s;
 
+        &::placeholder {
+            color: $color-gray2;
+        }
         &:hover,
         &:focus {
             border-color: $color-gray2;

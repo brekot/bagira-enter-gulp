@@ -7,7 +7,15 @@
 
 <hr>
 
-## :hammer_and_wrench: Установка
+<b>Подключены в JS:</b><br>
+
+<ul>
+    <li>Imask - для маски телефона и email (https://unpkg.com/imask)</li>
+</ul>
+
+<hr>
+
+<b>Установка</b><br>
 * установите [NodeJS](https://nodejs.org/en/)
 * установите глобально:
     * [Yarn](https://yarnpkg.com/getting-started): ```npm i -g yarn```
