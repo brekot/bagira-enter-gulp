@@ -1,0 +1,47 @@
+.remember-me {
+    position: relative;
+
+    &__input {
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+    }
+    &__label {
+        cursor: pointer;
+        padding: 0 0 0 25px;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: $color-black;
+        transition: .5s;
+
+        &:hover {
+            color: #3dae2b;
+        }
+        &::before {
+            content: "";
+            height: 18px;
+            width: 18px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: #3dae2b;
+            left: 0;
+            top: 50%;
+            translate: 0 -50%;
+        }
+    }
+    &__icon {
+        width: 8px;
+        height: 6px;
+        fill: $color-white;
+        position: absolute;
+        left: 5px;
+        top: 50%;
+        translate: 0 -50%;
+        opacity: 0;
+        z-index: 2;
+    }
+    &__input:checked ~ &__icon {
+        opacity: 1;
+    }
+}

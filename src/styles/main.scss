@@ -1,19 +1,14 @@
-// Переменные, миксины, функции
-@import "helpers/variables";
-@import "helpers/grid";
-
 // Основное
 @import "base/fonts";
+@import "base/variables";
 @import "base/normalize";
+@import "base/container";
+
+// Общие элементы
+@import "elems/main-block";
+@import "elems/btns";
+@import "elems/title-style";
+@import "elems/bottom-block";
 
 // БЭМ-блоки
 @import "../blocks/modules";
-
-/* 
-@include media-breakpoint-only(lg)
-{
-    & {
-
-    }
-}
-*/

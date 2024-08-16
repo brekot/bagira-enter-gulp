@@ -1,0 +1,22 @@
+<div class="form-one">
+    <form action="" method="post">
+        <div class="form-one__line">
+            <input type="text" class="form-one__input" value="" placeholder="Логин" name="login" required>
+        </div>
+        <div class="form-one__line">
+            <input type="password" class="form-one__input" value="" placeholder="Пароль" name="password" required>
+            @@include("../password-toggle/password-toggle.html")
+        </div>
+        <div class="form-one__line">
+            <button type="submit" class="btn btn_main">Войти</button>
+        </div>
+        <div class="form-one__parts">
+            <div class="form-one__part">
+                @@include("../remember-me/remember-me.html")
+            </div>
+            <div class="form-one__part">
+                <a href="javascript:;" class="form-one__lost-password">Забыл пароль?</a>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,29 @@
+.info-block {
+    backdrop-filter: blur(10px);
+    background: rgba(35, 31, 32, 0.7);
+    border-radius: 50px;
+    padding: 32px 53px 30px;
+    margin: 0 0 22px;
+    text-align: center;
+
+    &__name {
+        color: $color-white;
+        margin: 0 0 8px;
+    }
+    &__desc {
+        font-size: 15px;
+        line-height: 1.2;
+        color: $color-text-opacity;
+        margin: 0 0 15px;
+    }
+
+    @media (max-width: 470px)
+    {
+        & {
+            background: $color-black;
+            border-radius: 30px;
+            padding: 22px 15px 24px;
+            margin: 0 15px 32px;
+        }
+    }
+}

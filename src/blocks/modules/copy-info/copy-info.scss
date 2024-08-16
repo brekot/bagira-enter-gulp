@@ -1,0 +1,42 @@
+.copy-info {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.42;
+    text-align: center;
+    color: $color-white;
+
+    &__info {
+        color: $color-text-opacity;
+
+        &-link {
+            text-decoration: underline;
+            color: $color-text-opacity;
+        }
+    }
+    &__dev-link {
+        font-weight: 500;
+        text-decoration: underline;
+        color: $color-white;
+    }
+
+    @media (max-width: 470px)
+    {
+        & {
+            color: $color-black;
+            padding: 0 15px;
+
+            &__info {
+                color: $color-gray3;
+                max-width: 230px;
+                margin: auto;
+        
+                &-link {
+                    color: $color-gray3;
+                }
+            }
+            &__dev-link {
+                color: $color-black;
+            }
+        }
+    }
+}

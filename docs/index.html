@@ -4,17 +4,65 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Багира (Авторизация)</title>
-        <meta name="theme-color" content="#fff">
+        <meta name="theme-color" content="#3dae2b">
         <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
 
-        <link rel="stylesheet" href="local/styles/main.min.css">
+        <link rel="stylesheet" href="local/css/main.min.css">
     </head>
     <body>
-        <div class="header-main"></div>
-        <div class="footer-main">
-
+        <div class="container">
+            <div class="main-block">
+                <div class="main-block__logo">
+                    <img src="local/img/logo.svg" class="main-block__logo-img" alt="logo" width="470" height="120">
+                </div>
+                <div class="main-block__inner">
+                    <div class="form-one">
+    <form action="" method="post">
+        <div class="form-one__line">
+            <input type="text" class="form-one__input" value="" placeholder="Логин" name="login" required>
+        </div>
+        <div class="form-one__line">
+            <input type="password" class="form-one__input" value="" placeholder="Пароль" name="password" required>
+            <a href="javascript:;" class="password-toggle">
+    <svg class="password-toggle__icon">
+        <use xlink:href="local/img/sprites/sprite.svg#pass-hide"></use>
+    </svg>
+</a>
+        </div>
+        <div class="form-one__line">
+            <button type="submit" class="btn btn_main">Войти</button>
+        </div>
+        <div class="form-one__parts">
+            <div class="form-one__part">
+                <div class="remember-me">
+    <input class="remember-me__input" type="checkbox" value="Y" name="remember-me" id="remember-me" required>
+    <svg class="remember-me__icon">
+        <use xlink:href="local/img/sprites/sprite.svg#check"></use>
+    </svg>
+    <label class="remember-me__label" for="remember-me">Запомнить меня</label>
 </div>
-        <script src="local/js/vendor.min.js"></script>
+            </div>
+            <div class="form-one__part">
+                <a href="javascript:;" class="form-one__lost-password">Забыл пароль?</a>
+            </div>
+        </div>
+    </form>
+</div>
+                </div>
+            </div>
+            <div class="bottom-block">
+                <div class="info-block">
+    <div class="info-block__name title-style">Нет логина и пароля?</div>
+    <div class="info-block__desc">Запросите данные, если Вы являетесь нашим клиентом</div>
+    <a href="javascript:;" class="btn btn_main btn_md">Запросить</a>
+</div>
+                <div class="copy-info">
+    <div>© 2024 ЧОП «Багира». Все права защищены.</div>
+    <div class="copy-info__info">Авторизируясь, вы даёте согласие на <a href="javascript:;" class="copy-info__info-link">обработку персональных данных</a></div>
+    <div class="copy-info__dev">Разработка сайта <a href="javascript:;" class="copy-info__dev-link">STUDIO 512</a></div>
+</div>
+            </div>
+        </div>
         <script src="local/js/main.min.js"></script>
     </body>
 </html>

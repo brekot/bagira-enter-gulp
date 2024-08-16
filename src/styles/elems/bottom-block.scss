@@ -1,0 +1,10 @@
+.bottom-block {
+    margin: 40px 0 0;
+
+    @media (min-width: 471px)
+    {
+        & {
+            margin: 30px 0 0;
+        }
+    }
+}
