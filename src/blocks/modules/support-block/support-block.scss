@@ -1,0 +1,18 @@
+.support-block {
+    text-align: center;
+
+    &__title {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 1.15;
+        letter-spacing: .06em;
+        text-transform: uppercase;
+        color: $color-text-opacity;
+    }
+    &__phone {
+        font-weight: 600;
+        font-size: 22px;
+        color: $color-white;
+        text-decoration: none;
+    }
+}

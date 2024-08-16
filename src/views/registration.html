@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Багира (Авторизация)</title>
+        <meta name="theme-color" content="#3dae2b">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+
+        <link rel="stylesheet" href="local/css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-block">
+                <div class="main-block__logo">
+                    <img src="local/img/logo.svg" class="main-block__logo-img" alt="logo" width="470" height="120">
+                </div>
+                <div class="main-block__inner">
+                    <div class="title-style">Запрос данных для авторизации</div>
+                    @@include("../blocks/modules/user-type/user-type.html")
+                    @@include("../blocks/modules/form-one/registration-fiz.html")
+                </div>
+            </div>
+            <div class="bottom-block">
+                @@include("../blocks/modules/support-block/support-block.html")
+            </div>
+        </div>
+        <script src="local/js/main.js"></script>
+    </body>
+</html>

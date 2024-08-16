@@ -3,6 +3,10 @@
     &__line {
         position: relative;
         margin: 0 0 23px;
+
+        &_short {
+            margin: 0 0 17px;
+        }
     }
     &__input {
         border-radius: 10px;
@@ -38,5 +42,29 @@
         font-weight: 700;
         font-size: 12px;
         display: block;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.back-link {
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: $color-black;
+    fill: $color-black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    &:hover {
+        fill: $color-main;
+    }
+    &__icon {
+        width: 7px;
+        height: 11px;
     }
 }
