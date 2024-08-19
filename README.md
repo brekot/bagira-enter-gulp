@@ -24,7 +24,7 @@
     * [Yarn](https://yarnpkg.com/getting-started): ```npm i -g yarn```
     * [Gulp](https://gulpjs.com/): ```npm i -g gulp```
     * [Bem Tools](https://www.npmjs.com/package/bem-tools-core): ```npm i -g bem-tools-core```
-* перейдите в скачанную папку со сборкой: ```cd gulp-scss-starter```
+* перейдите в скачанную папку со сборкой: ```cd bagira-enter-gulp```
 * введите ```yarn set version berry```
 * скачайте необходимые зависимости: ```yarn```
 * чтобы начать работу, введите команду: ```yarn run dev``` (режим разработки)
